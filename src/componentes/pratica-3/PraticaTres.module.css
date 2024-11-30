@@ -1,0 +1,11 @@
+.bg_vermelho {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.bg_azul {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
