@@ -2,6 +2,8 @@ import Head from "next/head";
 import PraticaOne from "@/componentes/pratica-1";
 import Aleatorio from "@/componentes/pratica-2"
 import Change from "@/componentes/pratica-3"
+import MenuComponent from "@/componentes/pratica-4"
+import DarkMode from "@/componentes/pratica-5"
 
 export default function Home() {
   return (
@@ -12,9 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <PraticaOne />
+      {/* <PraticaOne />
       <Aleatorio />
       <Change />
+      <MenuComponent /> */}
+      {/* <DarkMode /> */}
     </>
   );
 }
